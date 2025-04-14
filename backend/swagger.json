@@ -1,0 +1,28 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "API de Paracaidismo",
+        "description": "Documentación de la API de Paracaidismo"
+    },
+    "paths": {
+        "/api/eventos": {
+            "get": {
+                "summary": "Obtener todos los eventos",
+                "responses": {
+                    "200": {
+                        "description": "Lista de eventos"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Crear un evento",
+                "responses": {
+                    "201": {
+                        "description": "Evento creado"
+                    }
+                }
+            }
+        }
+    }
+}
